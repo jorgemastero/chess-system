@@ -8,7 +8,7 @@ public class ChessPiece extends Piece {
 	private Color color;
 
 	public ChessPiece(Board board, Color color) {
-		super(board);
+		super(board); //metodo super acesso um contrutor da classe pai
 		this.color = color;
 	}
 
